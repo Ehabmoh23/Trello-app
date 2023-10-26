@@ -1,0 +1,164 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body {
+  background-color: #f5f8fa;
+}
+.bg-profile{
+  background-color: #f5f8fa;
+  height: 100vh;
+}
+.bg-custom {
+  background-color: black !important;
+  color: white !important;
+}
+.nav-bg{
+  background-color: #0C66E4 !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+
+.btn-default-outline {
+  color: #000 !important;
+  background-color: transparent;
+  border-color: #000;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.btn-default-outline:hover {
+  color: #fff !important;
+  background-color: #000;
+  box-shadow: none;
+}
+
+.forgot:hover {
+  color: #000 !important;
+}
+
+.login {
+  color: #000;
+}
+
+.user-icon {
+  font-size: 60px;
+  color: #C0C0C0;
+}
+
+.avatar {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.share {
+  margin: 0px auto 10px auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Todo {
+  background: #f4f4f6;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.TodoWrapper h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #787777;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #0079bf;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ecf0f2;
+}
+
+.todo-btn {
+  background: #0079bf;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0079bf;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #0079bf;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+ 
